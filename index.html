@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Portfolio</title>
+
+    <!-- swiper css -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <!-- custom css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- header design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio.</a>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+        <div class="bx bx-moon" id="darkMode-icon"></div>
+
+        <div class="bx bx-menu" id="menu-icon"></div>
+    </header>
+
+    <!-- home section design -->
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello, I am</h3>
+            <h1><span>Mohammed Ali Khan</span></h1>
+            <p>
+                I'm working in web development and Design.
+                I enjoy creating beautiful and intuitive web designs using Html css 
+                and make them interactive with Javascript.
+            </p>
+
+            <div class="social-media">
+                <a href="#"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-linkedin'></i></a>
+            </div>
+
+            <a href="#" class="btn">Download CV</a>
+        </div>
+
+        <div class="profession-container">
+            <div class="profession-box">
+                <div class="profession" style="--i:0;">
+                    <i class='bx bx-code-alt'></i>
+                    <h3>Web Developer</h3>
+                </div>
+                <div class="profession" style="--i:1;">
+                    <i class='bx bx-palette'></i>
+                    <h3>Web Designer</h3>
+                </div>
+                <div class="profession" style="--i:2;">
+                    <i class='bx bx-mobile-alt'></i>
+                    <h3>UI/UX Designer</h3>
+                </div>
+                <div class="profession" style="--i:3;">
+                    <i class='bx bx-world'></i>
+                    <h3>Frontend Developer</h3>
+                </div>
+
+                <div class="circle"></div>
+            </div>
+
+            <div class="overlay"></div>
+        </div>
+
+        <div class="home-img">
+            <img src="portfolio.png" alt="">
+        </div>
+    </section>
+
+    <!-- about section design -->
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="portfolio.png" alt="">
+        </div>
+
+        <div class="about-content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <p>
+                My job is to build your website so that it is functional and 
+                user-friendly but at the same time attractive.
+            </p>
+            <p>
+                Moreover, I add personal touch to your product and make sure that is eye-catching and easy to use. 
+                My aim is to bring across your message and identity in the most creative way. 
+                I created web design for many famous brand companies.
+            </p>
+            <a href="#" class="btn">Read More</a>
+        </div>
+    </section>
+
+    <!-- services section design -->
+    <section class="services" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="services-container">
+            <div class="services-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Web Development</h3>
+                <p>Creating responsive and dynamic websites using modern technologies like HTML, CSS, and JavaScript. 
+                   Building user-friendly interfaces and ensuring cross-browser compatibility.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-palette'></i>
+                <h3>Web Design</h3>
+                <p>Designing beautiful and intuitive user interfaces with focus on user experience. 
+                   Creating visually appealing layouts that enhance user engagement and accessibility.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+            <div class="services-box">
+                <i class='bx bx-mobile-alt'></i>
+                <h3>Responsive Design</h3>
+                <p>Ensuring websites work perfectly across all devices and screen sizes. 
+                   Implementing mobile-first design principles for optimal user experience.</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio section design -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Projects</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="solvemate.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>SolveMate</h4>
+                    <p>Assistive app for neurodivergent individuals with dyscalculia, providing step-by-step, visual math support.</p>
+                    <a href="https://github.com/Dexxotik/Solve-Mate"><i class='bx bx-link-external'></i><span>View Repo</span></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="momease.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>MomEase</h4>
+                    <p>App that tracks periods and pregnancy with cycle predictions, symptom logging, and insights.</p>
+                    <a href="https://github.com/Yaseen9805/MomEase"><i class='bx bx-link-external'></i><span>View Repo</span></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="signlanguage.png" alt="">
+
+                <div class="portfolio-layer">
+                    <h4>Sign Language Translator</h4>
+                    <p>An innovative application that translates sign language to text and speech in real-time.</p>
+                    <a href="https://github.com/Yaseen9805/SignLanguage-Translator"><i class='bx bx-link-external'></i><span>View Repo</span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- testimonial design -->
+    <div class="testimonial-container">
+        <h2 class="heading"><span>Testimonial</span></h2>
+
+        <div class="testimonial-wrapper">
+            <div class="testimonial-box mySwiper">
+                <div class="testimonial-content swiper-wrapper">
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="MaheedDalle.jpg" alt="Samad bhaai">
+                        <h3>Ahmed Maheed Khan</h3>
+                        <p>Working with Mohammed was an absolute pleasure! His attention to detail and innovative approach to web development transformed our outdated website into a modern, user-friendly platform. The responsive design he implemented has significantly improved our user engagement and mobile traffic. His communication throughout the project was excellent, and he delivered everything on time and within budget. I highly recommend him for any web development project!</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="zaid.jpg" alt="zaid">
+                        <h3>Mohammed Zaid</h3>
+                        <p>Mohammed's expertise in web design and user experience is outstanding. His ability to create beautiful, intuitive interfaces while ensuring accessibility for all users is remarkable. The websites he designed for us are not only visually appealing but also highly functional across all devices. His understanding of modern design principles and commitment to inclusive design makes him an invaluable partner for any web project.</p>
+                    </div>
+                    <div class="testimonial-slide swiper-slide">
+                        <img src="ibrahim.jpg" alt="suttebaaaz">
+                        <h3>Syed Ibrahim</h3>
+                        <p>I was impressed by Mohammed's mastery of responsive design. He transformed our desktop-only website into a seamless experience across all devices. His attention to mobile-first design principles and cross-browser compatibility ensured our site performs perfectly everywhere. His technical skills combined with his eye for design make him the perfect choice for anyone needing a professional, responsive website.</p>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- contact section design -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me!</span></h2>
+
+        <div class="contact-form-container">
+            <iframe 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSftZ4ZgSp49D9yiJlbYrymX4nzwuz5g8Onl9CX9XrUVZfjKqA/viewform?embedded=true" 
+                width="100%" 
+                height="600" 
+                frameborder="0" 
+                marginheight="0" 
+                marginwidth="0">
+                Loading…
+            </iframe>
+        </div>
+    </section>
+
+    <!-- footer design -->
+    <footer class="footer">
+        <div class="footer-text">
+            <p>Copyright &copy; All Rights Reserved.</p>
+        </div>
+
+        <div class="footer-iconTop">
+            <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+        </div>
+    </footer>
+
+
+    <!-- scroll reveal -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!-- swiper js -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+    <!-- custom js -->
+    <script src="script.js"></script>
+</body>
+
+</html>
